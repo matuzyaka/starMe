@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="shortcut icon"
+      href="src/assets/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="src/js/three.min.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="right brand-logo"
+          ><h2 class="nav-logo">Star Me</h2></a
+        >
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+        <ul class="center hide-on-med-and-down">
+          <li><a href="#slide-one">Star Me</a></li>
+          <li><a href="#slide-two">О звездах</a></li>
+          <li><a href="#slide-three">Подарки</a></li>
+          <li><a href="#slide-four">Заказать</a></li>
+          <li><a href="#slide-five">О нас</a></li>
+          <li><a href="#slide-six">Скринсейвер</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#slide-one">Star Me</a></li>
+      <li><a href="#slide-two">О звездах</a></li>
+      <li><a href="#slide-three">Подарки</a></li>
+      <li><a href="#slide-four">Заказать</a></li>
+      <li><a href="#slide-five">О нас</a></li>
+      <li><a href="#slide-six">Скринсейвер</a></li>
+    </ul>
+
+    <!-- <div class="nav">
+      <ul>
+        <li>StarMe</li>
+        <li>ggerge</li>
+      </ul>
+    </div> -->
+
+    <div class="outer-wrapper">
+      <div class="slide one" id="slide-one">
+        <div id="slide-one-div">
+            <p>Люди всегда мечтали о звездах...</p>
+            <p>
+              Сегодня одна из них может стать Вашим подарком любимому человеку.<br />
+              <br />
+            </p>
+    
+            <p>Подаренная звезда никогда не завянет как цветок,</p>
+            <p>
+              и каждый взгляд на звездное небо сможет напомнить о Вас и силе Ваших
+              чувств. <br />
+              <br />
+              <br />
+            </p>
+            <p>Наслаждайтесь звездами и дарите их тем, кто вам дорог.</p>
+
+        </div>
+        
+
+      </div>
+      <div class="slide two" id="slide-two">
+        <h3 çlass="slide-two-p">Купить звезду, подарить звезду или назвать звезду - это реально!</h3>
+        <div>
+            
+
+            <p çlass="slide-two-p">
+              У нас Вы можете заказать самый оригинальный подарок - купить  звезду! Он всегда будет отличаться своей уникальностью и неповторимостью. Универсальность звезды в подарок состоит в том, что она подойдет для любого торжества.
+              <br>
+              Вы можете подарить звезду любимому человеку или фирме-партнеру. На праздник или просто чтобы показать свою любовь и уважение.
+              <br>
+              Для того чтобы купить звезду стало легче, мы объединили все подарки в комплекты. Благодаря этому, Вы можете купить подарок, который максимально подходит под Ваши требования.
+            </p>
+            <h3 çlass="slide-two-p">Пользуйтесь преимуществами одного из лучших сервисов по покупке звезд!</h3>
+            <p çlass="slide-two-p"><b>Проверка регистрации через программу Google Earth.</b> Купить или назвать звезду не проблема, важно где это можно проверить!
+            <br>
+            <b>Выполнение заказов День в День!</b> Принимаем и выполняем заказы 24 часа в сутки и 7 дней в неделю.
+            <br>
+            <b>Возможность увидеть Звезду вживую!</b> Астроном с более чем 20-летним опытом покажет названную Звезду с помощью Вашего или своего телескопа!
+            <br>
+            <b>Украинские качественные материалы для визуального оформления.</b> Ваш подарок запомнят навсегда!
+            <br>
+            <b>Оптимальное соотношение цены и качества.</b>  В прайсе указаны цены подарков под ключ!
+            <br>
+            <b>Доставка в любой уголок Украины и мира.</b> По г. Киев бесплатно! 
+            <br>
+            <b>Лучшие консультанты.</b> Подробно ответим на любой Ваш вопрос.</p>
+        </div>
+
+      </div>
+      <div class="slide three" id="slide-three">
+        <h3>Выберите подарок</h3>
+        <div class="row-three">
+          <ul class="collapsible popout">
+              <li>
+                <div class="collapsible-header">
+                  <i class="material-icons">star_border</i>Подарочный комплект
+                  БАЗОВЫЙ
+                </div>
+                <div class="collapsible-body">
+                  <span>
+                    <h4>Звездная величина: 10</h4>
+                    <ul>
+                      <li>
+                        Сертификат (формат А4) на специальной бумаге, оформлен в
+                        раму (багет 1см);
+                      </li>
+                      <li>Фото-карта к выбранной звезде (формат А4);</li>
+                      <li>
+                        Сувенирная папка (содержит глоссарий астрологических
+                        терминов, описание как найти звезду с помощью программного
+                        обеспечения);
+                      </li>
+                      <li>Подарочный пакет.</li>
+                    </ul>
+                    <h4>Стоимость 595 гривен</h4>
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">
+                  <i class="material-icons">star_border</i>Подарочный комплект
+                  ПРЕМИУМ
+                </div>
+                <div class="collapsible-body">
+                  <span>
+                    <h4>Звездная величина: 9</h4>
+                    <ul>
+                      <li>
+                        Сертификат (формат А4) на специальной бумаге с элементами
+                        защиты (тиснение золотой фольгой, тангирная сетка), оформлен
+                        в раму (багет 3см);
+                      </li>
+                      <li>
+                        Фото-карта к звезде (формат А3) на специальной бумаге,
+                        оформлена в раму (багет 3см);
+                      </li>
+                      <li>
+                        Сувенирная папка (содержит выписку из каталога с фотографией
+                        звезды и параметрами, глоссарий астрологических терминов,
+                        описание как найти звезду с помощью программного
+                        обеспечения);
+                      </li>
+                      <li>Диск с программным обеспечением для просмотра звезды;</li>
+                      <li>Подарочный пакет из жатой бумаги с золотым тиснением.</li>
+                    </ul>
+                    <h4>Стоимость 895 гривен</h4>
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">
+                  <i class="material-icons">star_border</i>Подарочный комплект ЭЛИТ
+                </div>
+                <div class="collapsible-body">
+                  <span>
+                    <h4>
+                      Звездная величина: 8
+                    </h4>
+                    <ul>
+                      <li>
+                        Сертификат (формат А4) выполнен на металлической пластине по
+                        технологии Гравертон и помещен на деревянную подложку;
+                      </li>
+                      <li>
+                        Фото-карта к звезде (формат А3) на специальной бумаге,
+                        оформлена в раму (багет 3см);
+                      </li>
+                      <li>
+                        Сувенирная папка (содержит выписку из каталога с фотографией
+                        звезды и параметрами, глоссарий астрологических терминов,
+                        поздравительный текст, описание как найти звезду с помощью
+                        программного обеспечения);
+                      </li>
+                      <li>
+                        Диск с программным обеспечением для просмотра звезды;
+                      </li>
+                      <li>
+                        Подарочный пакет из жатой бумаги с золотым тиснением.
+                      </li>
+                    </ul>
+                    <h4>Стоимость 1395 гривен</h4>
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">
+                  <i class="material-icons">star_border</i>Подарочный комплект ЭЛИТ+
+                </div>
+                <div class="collapsible-body">
+                  <span>
+                    <h4>
+                      Звездная величина: 8
+                    </h4>
+                    <ul>
+                      <li>
+                        Сертификат (формат А3) выполнен на металлической пластине по
+                        технологии Гравертон и помещен на деревянную подложку;
+                      </li>
+                      <li>
+                        Фото-карта к звезде (формат А3) на специальной бумаге,
+                        оформлена в раму (багет 3см);
+                      </li>
+                      <li>
+                        Сувенирная папка (содержит выписку из каталога с фотографией
+                        звезды и параметрами, глоссарий астрологических терминов,
+                        поздравительный текст, описание как найти звезду с помощью
+                        программного обеспечения);
+                      </li>
+                      <li>
+                        Диск с программным обеспечением для просмотра звезды;
+                      </li>
+                      <li>
+                        Подарочный пакет из жатой бумаги с золотым тиснением.
+                      </li>
+                    </ul>
+                    <h4>Стоимость 1695 гривен</h4>
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">
+                  <i class="material-icons">star_border</i>Подарочный комплект VIP
+                </div>
+                <div class="collapsible-body">
+                  <span>
+                    <h4>
+                      Звездная величина: 7
+                    </h4>
+                    <ul>
+                      <li>
+                        Сертификат (формат А4) выполнен на металлической пластине по
+                        технологии Гравертон и помещен на деревянную подложку;
+                      </li>
+                      <li>
+                        Схема-карта (формат А4) выполнена на металлической пластине
+                        по технологии Гравертон и помещена на деревянную подложку;
+                      </li>
+                      <li>
+                        Сувенирная папка (содержит выписку из каталога с фотографией
+                        звезды и параметрами, глоссарий астрологических терминов,
+                        поздравительный текст, описание как найти звезду с помощью
+                        программного обеспечения);
+                      </li>
+                      <li>
+                        Диск с программным обеспечением для просмотра звезды;
+                      </li>
+                      <li>
+                        Подарочный пакет из жатой бумаги с золотым тиснением.
+                      </li>
+                    </ul>
+                    <h4>Стоимость 2295 гривен</h4>
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">
+                  <i class="material-icons">star_border</i>Подарочный комплект VIP+
+                </div>
+                <div class="collapsible-body">
+                  <span>
+                    <h4>
+                      Звездная величина: 7
+                    </h4>
+                    <ul>
+                      <li>
+                        Сертификат (формат А3) выполнен на металлической пластине по
+                        технологии Гравертон и помещен на деревянную подложку;
+                      </li>
+                      <li>
+                        Схема-карта (формат А3) выполнена на металлической пластине
+                        по технологии Гравертон и помещена на деревянную подложку;
+                      </li>
+                      <li>
+                        Сувенирная папка (содержит выписку из каталога с фотографией
+                        звезды и параметрами, глоссарий астрологических терминов,
+                        поздравительный текст, описание как найти звезду с помощью
+                        программного обеспечения);
+                      </li>
+                      <li>
+                        Диск с программным обеспечением для просмотра звезды;
+                      </li>
+                      <li>
+                        Подарочный пакет из жатой бумаги с золотым тиснением.
+                      </li>
+                    </ul>
+                    <h4>Стоимость 2595 гривен</h4>
+                  </span>
+                </div>
+              </li>
+            </ul>
+        </div>
+      </div>
+      <div class="slide four" id="slide-four">
+        <h3>slide four</h3>
+        <div class="row">
+            <form class="col s12 form">
+              <div class="row">
+                <div class="input-field col s10">
+                  <input
+                    placeholder="Ваше имя"
+                    id="name"
+                    name="name"
+                    type="text"
+                    class="validate"
+                    required
+                  />
+                  <label for="Name">Имя</label>
+                </div>
+              </div>
+  
+              <div class="row">
+                <div class="input-field col s10">
+                  <input id="phone" name="phone" type="text" required />
+                  <label for="Phone number">Номер телефона</label>
+                </div>
+              </div>
+  
+              <div class="row">
+                <div class="input-field col s10">
+                  <input id="email" name="email" type="email" class="validate" />
+                  <label for="email">Email</label>
+                </div>
+              </div>
+              <div class="input-field col s10">
+                <select class="validate required" name="selected" required>
+                  <option value="" disabled selected>Сделайте свой выбор</option>
+                  <option value="1 БАЗОВЫЙ">БАЗОВЫЙ</option>
+                  <option value="2 ПРЕМИУМ">ПРЕМИУМ</option>
+                  <option value="3 ЭЛИТ">ЭЛИТ</option>
+                  <option value="4 ЭЛИТ +">ЭЛИТ +</option>
+                  <option value="5 VIP">VIP</option>
+                  <option value="6 VIP +">VIP +</option>
+                  <option value="7 Консультация">Бесплатная консультация</option>
+                </select>
+                <label>Выберите подарочный комплект</label>
+              </div>
+              <button class="waves-effect waves-light btn col s10">
+                <i class="material-icons left">cloud</i>Заказать
+              </button>
+            </form>
+          </div>
+
+
+
+        
+      </div>
+      <div class="slide five" id="slide-five">
+        <div class="carousel">
+          <!-- <a class="carousel-item" href="#-5!"
+            ><img
+              class="materialboxed"
+              src="src/assets/carousel/компект базовый1.jpeg"
+          /></a>
+          <a class="carousel-item" href="#-4!"
+            ><img
+              class="materialboxed"
+              src="src/assets/carousel/компект базовый2.jpeg"
+          /></a>
+          <a class="carousel-item" href="#-3!"
+            ><img
+              class="materialboxed"
+              src="src/assets/carousel/компект базовый3.jpeg"
+          /></a>
+          <a class="carousel-item" href="#-2!"
+            ><img
+              class="materialboxed"
+              src="src/assets/carousel/компект базовый4.jpeg"
+          /></a>
+          <a class="carousel-item" href="#-1!"
+            ><img
+              class="materialboxed"
+              src="src/assets/carousel/компект базовый5.jpeg"
+          /></a>
+          <a class="carousel-item" href="#0!"
+            ><img
+              class="materialboxed"
+              src="src/assets/carousel/компект базовый6.jpeg"
+          /></a>
+          <a class="carousel-item" href="#1!"
+            ><img class="materialboxed" src="src/assets/carousel/премиум1.jpeg"
+          /></a>
+          <a class="carousel-item" href="#2!"
+            ><img class="materialboxed" src="src/assets/carousel/премиум2.jpeg"
+          /></a>
+          <a class="carousel-item" href="#3!"
+            ><img class="materialboxed" src="src/assets/carousel/премиум4.jpeg"
+          /></a>
+          <a class="carousel-item" href="#4!"
+            ><img class="materialboxed" src="src/assets/carousel/элит+1.jpeg"
+          /></a>
+          <a class="carousel-item" href="#5!"
+            ><img class="materialboxed" src="src/assets/carousel/элит+2.jpeg"
+          /></a>
+          <a class="carousel-item" href="#6!"
+            ><img class="materialboxed" src="src/assets/carousel/элит+3.jpeg"
+          /></a>
+          <a class="carousel-item" href="#7!"
+            ><img class="materialboxed" src="src/assets/carousel/элит1.jpeg"
+          /></a>
+          <a class="carousel-item" href="#8!"
+            ><img class="materialboxed" src="src/assets/carousel/элит2.jpeg"
+          /></a>
+          <a class="carousel-item" href="#9!"
+            ><img class="materialboxed" src="src/assets/carousel/элит3.jpeg"
+          /></a>
+          <a class="carousel-item" href="#10!"
+            ><img class="materialboxed" src="src/assets/carousel/элит4.jpeg"
+          /></a>
+          <a class="carousel-item" href="#11!"
+            ><img
+              class="materialboxed"
+              src="src/assets/carousel/vip and vip+.jpeg"
+          /></a>
+          <a class="carousel-item" href="#12!"
+            ><img class="materialboxed" src="src/assets/carousel/vip+1.jpeg"
+          /></a>
+          <a class="carousel-item" href="#13!"
+            ><img class="materialboxed" src="src/assets/carousel/vip+2.jpeg"
+          /></a> -->
+          <a class="carousel-item" href="#14!"
+            ><img class="materialboxed" src="src/assets/carousel/vip1.jpeg"
+          /></a>
+          <a class="carousel-item" href="#15!"
+            ><img class="materialboxed" src="src/assets/carousel/vip2.jpeg"
+          /></a>
+          <a class="carousel-item" href="#16!"
+            ><img class="materialboxed" src="src/assets/carousel/vip3.jpeg"
+          /></a>
+          <a class="carousel-item" href="#17!"
+            ><img class="materialboxed" src="src/assets/carousel/vip5.jpeg"
+          /></a>
+          <a class="carousel-item" href="#18!"
+            ><img class="materialboxed" src="src/assets/carousel/vip8.jpeg"
+          /></a>
+        </div>
+        <div>
+          <h3>Команда Star Me</h3>
+          <p>Команда Star Me любит звезды.<br> Но больше этого мы любим делать людей счастливыми. <br>
+            Счастливыми от того, что миллиарды тонн пылающей материи названы их именем.<br>
+            И что свет этих звезд будет нести память о людях, их чувствах и желаниях. <br>
+            Да прибудут с Вами звезды)
+          </p>
+        </div>
+      </div>
+      <div class="slide six" id="slide-six"></div>
+    </div>
+  </body>
+</html>
